@@ -8,15 +8,12 @@ Tag.init(
 	{
 		id: {
 			type: DataTypes.INTEGER,
-
 			allowNull: false,
-			// instruct that this is the Primary Key
 			primaryKey: true,
-			// turn on auto increment
 			autoIncrement: true,
 		},
 		tag_name: {
-			DataTypes: DataTypes.STRING,
+			type: DataTypes.STRING,
 		},
 	},
 	{
