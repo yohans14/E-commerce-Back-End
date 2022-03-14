@@ -11,11 +11,8 @@ Category.init(
 		id: {
 			// use the special Sequelize DataTypes object provide what type of data it is
 			type: DataTypes.INTEGER,
-
 			allowNull: false,
-			// instruct that this is the Primary Key
 			primaryKey: true,
-			// turn on auto increment
 			autoIncrement: true,
 		},
 		// define a category_name column
