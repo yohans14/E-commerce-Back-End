@@ -12,11 +12,8 @@ Product.init(
 		// define an id column
 		id: {
 			type: DataTypes.INTEGER,
-
 			allowNull: false,
-			// instruct that this is the Primary Key
 			primaryKey: true,
-			// turn on auto increment
 			autoIncrement: true,
 		},
 		product_name: {
